@@ -1,0 +1,100 @@
+{
+  "projectType": [
+    "com.watt.commonbuilder.sapui5clientbuild",
+    "sap.watt.uitools.ide.fiori"
+  ],
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Mon, 04 Jun 2018 08:31:38 GMT"
+    }
+  ],
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "fioriXmlAnalysis",
+      "js": "fioriJsValidator"
+    }
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/MMIM_GR4PO_DL_SRV/",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "extensibility": {
+    "controllers": {
+      "App": "GR4POS1%2fcontroller%2fApp.controller.js",
+      "NotFound": "GR4POS1%2fcontroller%2fNotFound.controller.js",
+      "S1": "GR4POS1%2fcontroller%2fS1.controller.js"
+    },
+    "views": {
+      "App": "GR4POS1%2fview%2fApp.view.xml",
+      "NotFound": "GR4POS1%2fview%2fNotFound.view.xml",
+      "S1": "GR4POS1%2fview%2fS1.view.xml",
+      "S2": "GR4POS1%2fview%2fS2.view.xml"
+    },
+    "fragments": {
+      "ApplicationSettingsInboundDelivery": "GR4POS1%2fview%2fApplicationSettingsInboundDelivery.fragment.xml",
+      "ApplicationSettingsPurchaseOrder": "GR4POS1%2fview%2fApplicationSettingsPurchaseOrder.fragment.xml",
+      "Attachment": "GR4POS1%2fview%2fAttachment.fragment.xml",
+      "accountAssignment": "GR4POS1%2fview%2faccountAssignment.fragment.xml",
+      "personalization": "GR4POS1%2fview%2fpersonalization.fragment.xml",
+      "selectBatch": "GR4POS1%2fview%2fselectBatch.fragment.xml",
+      "settings": "GR4POS1%2fview%2fsettings.fragment.xml",
+      "successPost": "GR4POS1%2fview%2fsuccessPost.fragment.xml"
+    },
+    "type": "abaprep",
+    "shouldLinkComponentToManifest": true,
+    "component": "GR4POS1%2fComponent.js",
+    "manifest": "GR4POS1%2fmanifest.json",
+    "versionJsonPath": "GR4POS1%2fversion.json",
+    "minUI5Version": "1.48.4",
+    "system": {
+      "name": "fiori-dev-sys",
+      "description": "fiori-dev-sys",
+      "proxyUrlPrefix": "/destinations/fiori-dev-sys",
+      "path": "/sap/bc/adt",
+      "url": "/destinations/fiori-dev-sys/sap/bc/adt",
+      "wattUsage": "dev_abap",
+      "systemId": "fiori-sys-dev",
+      "entryPath": "/sap/bc/adt",
+      "sapClient": "",
+      "additionalData": []
+    },
+    "discoveryStatus": {
+      "csrfToken": "lilz2Oxl2rAvszNB65tpsQ==",
+      "transports": "/destinations/fiori-dev-sys/sap/bc/adt/cts/transports",
+      "transportchecks": "/destinations/fiori-dev-sys/sap/bc/adt/cts/transportchecks",
+      "filestore_ui5_bsp": "/destinations/fiori-dev-sys/sap/bc/adt/filestore/ui5-bsp/objects",
+      "search": "/destinations/fiori-dev-sys/sap/bc/adt/repository/informationsystem/search",
+      "ato_settings": "/destinations/fiori-dev-sys/sap/bc/adt/ato/settings",
+      "ui5_rt_version": "/destinations/fiori-dev-sys/sap/bc/adt/filestore/ui5-bsp/ui5-rt-version",
+      "description": "fiori-dev-sys",
+      "proxyUrlPrefix": "/destinations/fiori-dev-sys"
+    },
+    "BSPName": "GR4POS1",
+    "namespace": "s2p.mm.im.goodsreceipt.purchaseorder",
+    "resourceBundle": "i18n/i18n.properties",
+    "parentResourceRootUrl": "/destinations/fiori-dev-sys/sap/bc/ui5_ui5/sap/GR4POS1"
+  },
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  }
+}
